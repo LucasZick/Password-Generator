@@ -1,7 +1,9 @@
 from random import random,choice
 import string
 
+
 exe = 0
+
 
 def define():
     global length
@@ -16,8 +18,6 @@ def define():
         chars += string.punctuation
     add_str_digits = ''
     
-    
-
 
 def gen():
     pw = ''
@@ -25,6 +25,7 @@ def gen():
         pw += choice(chars)
     return pw
     
+
 define()
 while exe != 1:
     password = gen()
