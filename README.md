@@ -1,1 +1,1 @@
-# Password-Generator
+Just a simple CLI Password Generator
